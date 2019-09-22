@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>
+Akan Names
+    </title>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link href="css/styles.css" rel="stylesheet" media="all">
+    <link href="css/bootstrap.css" rel="stylesheet" media="all">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>AKAN NAMES ACCORDING TO THE ACTUAL DAY YOU WERE BORN</h1>
+        <h2>DESCRIPTION</h2>
+        <p>The purpose of this webapp is to help you know the day you were born and assign you an Akan name depending on the day you were born and your gender</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card card1">
+          <center><h3>Akan Names</h3></center>
+              <h4>Male</h4>
+              <ul>
+                <li>Sunday: Kwasi</li>
+                <li>Monday: Kwadwo</li>
+                <li>Tuesday:Kwabena</li>
+                <li>Wednesday: Kwaku</li>
+                <li>Thursday: Yaw</li>
+                <li>Friday: Kofi</li>
+                <li>Saturday: Kwame</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div class="card card2">
+                <h4>Female</h4>
+                <ul>
+                  <li>Sunday: Akosua</li>
+                  <li>Monday: Adwoa</li>
+                  <li>Tuesday: Abenaa</li>
+                  <li>Wednesday: Akua</li>
+                  <li>Thursday: Yaa</li>
+                  <li>Friday: Afua</li>
+                  <li>Saturday: Ama</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+            <div>
+              <h3> Please Enter Your Correct Details</h3>
+                <form action="">
+                  <p>Gender: <select id="gender" name="gender">
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                    </select> 
+                  <p>Numeric Month (1-12): <input TYPE="text" NAME="month" maxlength="2"> </p>
+                  <p>Day of Month (1-31): <input TYPE="text" NAME="day" maxlength="2"> </p>
+                  <p>Year (eg. 1960): <input TYPE="text" NAME="year" maxlength="4"> </p>
+                  <p><input TYPE="button" VALUE="Update" ONCLICK="compute(this.form)"> <input TYPE="reset" VALUE="Clear"> </p>
+                  <p>Date of Birth: <input TYPE="text" NAME="result1" SIZE="18"> </p>
+                  <p>Day of Week: <input TYPE="text" NAME="result2" SIZE="18"> </p>
+                </form>
+        </div>
+      </div>
+    </div>
+
+
+    
+  </body>
+
+</html>
